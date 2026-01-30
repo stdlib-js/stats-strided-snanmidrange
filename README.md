@@ -50,7 +50,7 @@ The [**mid-range**][mid-range], or **mid-extreme**, is the arithmetic mean of th
 ## Usage
 
 ```javascript
-import snanmidrange from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-snanmidrange@deno/mod.js';
+import snanmidrange from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-snanmidrange@v0.1.0-deno/mod.js';
 ```
 
 #### snanmidrange( N, x, strideX )
@@ -149,7 +149,7 @@ var v = snanmidrange.ndarray( 4, x, 2, 1 );
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-discrete-uniform@deno/mod.js';
 import bernoulli from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-bernoulli@deno/mod.js';
 import filledarrayBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-filled-by@deno/mod.js';
-import snanmidrange from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-snanmidrange@deno/mod.js';
+import snanmidrange from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-snanmidrange@v0.1.0-deno/mod.js';
 
 function random() {
     if ( bernoulli( 0.8 ) < 1 ) {
